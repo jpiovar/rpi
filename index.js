@@ -15,4 +15,4 @@ setInterval(function () {
     var execc = `echo "initial text ${current}" >> data.txt && git add . && git commit -m "updated existing data.txt" && git push https://${cr.credentials.user}:${cr.credentials.password}@github.com/jpiovar/rpi.git`;
     cmd.run(execc);
 
-}, 30000);
+}, 10000);
