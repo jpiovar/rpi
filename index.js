@@ -12,7 +12,7 @@ cmd.get(
 setInterval(function () {
 
     var current = new Date().toISOString();
-    var execc = `echo "initial text ${current}" >> /home/pi/rpi/data.txt && git add . && git commit -m "updated existing data.txt" && git push https://${cr.credentials.user}:${cr.credentials.password}@github.com/jpiovar/rpi.git`;
+    var execc = `echo "initial text ${current}" >> data.txt && git add . && git commit -m "updated existing data.txt" && git push https://${cr.credentials.user}:${cr.credentials.password}@github.com/jpiovar/rpi.git`;
     cmd.run(execc);
 
 }, 30000);
