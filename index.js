@@ -1,4 +1,4 @@
-const cr = require('/home/pi/rpi/secure/credentials.js');
+const cr = require('./secure/credentials.js');
 
 const cmd = require('node-cmd');
 
