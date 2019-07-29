@@ -1,9 +1,11 @@
 <div>
+<p>
 <b>Raspberry pi zero w</b>
-<span>
+</p>
+<pre>
 exports.credentials = {
     user: 'user',
     password: 'password'
 };
-</span>
+</pre>
 </div>
